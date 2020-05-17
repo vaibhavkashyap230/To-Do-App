@@ -1,0 +1,53 @@
+body
+{
+    padding-left: 15px;
+}
+
+#data
+{
+    padding: 10px;
+    height: 25px;
+    width: 20%;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+button
+{
+    padding: 15px;
+    border: 0 none;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+li
+{
+    padding-left: 20px;
+    padding-top: 7px;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    list-style-type: none;
+    width: 35%;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border-radius: 50px 50px 50px 50px;
+}
+
+li:hover
+{
+    transform: scale(1.05);
+}
+
+li :hover
+{
+    transform: scale(1.15);
+}
+
+li img
+{
+    width: 32px;
+    margin-right: 25px;
+    float: right;
+}
